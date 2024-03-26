@@ -29,9 +29,16 @@ float cuadrado(float a){
 void cuadradoProcedimiento(float a){
     printf("%p\n%d\n", &a, a);
 }
-void invertir(int a, int b){
+void invertir(int *a, int *b){
+    int aux;
+    aux = *b;
+    b = a;
+    *a = aux;
 
 }
 void orden(int a, int b){
-
+    if (a > b)
+    {
+        
+    }
 }
